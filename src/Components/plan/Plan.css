@@ -1,0 +1,83 @@
+.Plan{
+    @apply  md:mt-[150px] 
+}
+.Plan_title{
+    @apply text-center
+}
+.Plan_title h1{
+    @apply text-[30px] md:text-[35px] font-Rubik font-medium md:mb-4
+}
+.Plan_title p{
+    @apply text-[16px] text-[#4F5665] font-Rubik  w-full
+}
+/*---- ----- ---Title End --- --- ---- --*/
+
+.Plan_full{
+    @apply md:flex md:justify-between mt-10 px-3
+}
+
+.Plan_One{
+    @apply  md:h-[770px] md:w-[330px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] border-[2px] rounded-[10px] border-transparent mt-2  
+}
+.Plan_One:hover{
+    @apply border-[2px] border-red 
+}
+
+.Plan_img{
+    @apply flex justify-center   mt-10
+}
+
+
+.Plan_One h1{
+    @apply text-[18px] font-Rubik font-medium text-center mt-[20px] md:mt-[30px] text-[#0B132A] mb-2 md:mb-[30px]
+}
+.Plan_p{
+    @apply  flex justify-center
+}
+.Plan_p ul li{
+    @apply flex items-center py-1 md:py-3  gap-3
+}
+
+
+.Plan_icon{
+    @apply text-[#2FAB73] h-[24px] w-[24px]
+}
+
+
+.Plan_One ul li p{
+    @apply font-Rubik font-medium text-[14px] text-[#4F5665]
+}
+
+
+.Plan_One h2{
+    @apply text-[23px] md:text-[30px] font-Rubik font-medium text-center mb-2 
+}
+.Plan_One span{
+    @apply font-Rubik font-normal text-[#4F5665]
+}
+
+.Plan_button {
+    @apply flex justify-center items-center
+}
+
+
+.Plan_button button {
+    @apply py-1 md:py-[13px] px-3 md:px-[62px] duration-[.5s] border-[2px] md:border-[3px] border-[#F53838] rounded-[10px] md:rounded-[50px]  text-[16px] font-Rubik font-bold text-red md:mt-3 mb-3   
+}
+
+
+.Plan_button button:hover{
+    @apply bg-red  text-white
+}
+
+/* ------------------ */
+.P_o{
+    @apply md:mt-[147px]
+}
+.P_t{
+    @apply mt-3 md:mt-[98px]
+}
+.p_th{
+    @apply mt-[15px] md:mt-[50px]
+}
+/* ------------------ */

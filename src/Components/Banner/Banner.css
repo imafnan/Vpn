@@ -1,0 +1,26 @@
+.Banner{
+    @apply pt-5 md:pt-[60px] px-3
+}
+.Banner_full{
+    @apply flex flex-wrap justify-between
+}
+
+.Banner_text h1{
+    @apply w-full lg:w-[555px] text-[27px] md:text-[50px] pt-3 font-medium font-Rubik  text-[#0B132A]
+}
+.Banner_text span{
+    @apply  font-bold 
+}
+.Banner_text p{
+    @apply text-[#4F5665] w-full md:w-[555px] text-[16px] pt-4
+}
+.Banner_text p span{
+    @apply font-semibold 
+}
+.Banner_text button{
+    @apply bg-red py-2 md:mt-[50px] px-4 md:py-[17px] md:px-[77px] rounded-[5px] my-5 text-white text-[16px] font-bold shadow-[1px_22px_12px_-3px_#F5383859]
+}
+.Banner_img{
+    @apply mt-5 px-3  
+}
+

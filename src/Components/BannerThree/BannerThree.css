@@ -1,0 +1,26 @@
+.BannerThree{
+    @apply  my-5 md:mt-24 
+}
+.BannerThree_full{
+    @apply md:flex md:justify-between  px-3
+}
+
+.BannerThree_text {
+  @apply md:mr-[150px] mt-7  
+}
+.BannerThree_text h1{
+    @apply font-Rubik  text-[27px] md:text-[35px] w-[380px] font-medium mb-3 text-[#0B132A] mt-7
+} 
+.BannerThree_text p{
+    @apply w-full md:w-[427px]  text-[16px] font-Rubik font-medium text-[#4F5665]
+}
+
+.BannerThree_text ul{
+    @apply mt-6
+}
+.BannerThree_text ul li{
+    @apply flex items-center text-[14px] font-Rubik font-medium text-[#4F5665] gap-1 py-1
+}
+.BannerThree_text ul li .li_Icon{
+    @apply w-[24px] h-[24px] text-[#2FAB73]
+}

@@ -1,0 +1,16 @@
+.Resmenu{
+    @apply lg:hidden mt-5 px-3
+}
+.Resmenu_full{
+    @apply flex justify-between items-center 
+}
+
+.Resmenu_icon{
+    @apply relative
+}
+.ResmenuList ul{
+    @apply absolute w-[250px] bg-slate-300 text-black rounded-lg p-5 flex flex-col font-bold gap-5 top-[25px] right-0 pl-[80px]
+}
+.ResmenuList ul :hover{
+    @apply text-red 
+}

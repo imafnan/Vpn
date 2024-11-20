@@ -1,0 +1,30 @@
+.Counter{
+    @apply mt-10 md:mt-[100px]
+}
+
+.Counter_Full {
+  @apply shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+  w-full flex flex-wrap justify-between  items-center md:py-[51px] py-7
+   md:px-[91px] mt-10 px-7; 
+}
+
+
+.Counter_Icon{
+    @apply bg-[#fff1f1] h-[45px] w-[45px] md:h-[55px] md:w-[55px] rounded-[50%] 
+    flex justify-center items-center text-[#F53838]
+ }
+
+ .Counter_Item{
+     @apply flex gap-1 md:gap-[36px] 
+    }
+    
+ .Counter_Number{
+        @apply  font-medium md:text-[25px] font-Rubik 
+    }
+.Counter_Item p{
+    @apply font-Rubik md:text-[20px] text-[#4F5665] font-normal
+}
+
+.Counter_Scl{
+    @apply h-[125px] border-[2px] border-[#d6e0ff] hidden lg:block
+}

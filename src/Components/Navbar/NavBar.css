@@ -1,0 +1,39 @@
+.main_menu {
+  @apply mt-5 hidden lg:block ;
+}
+.menu {
+  @apply flex justify-between  items-center ;
+}
+.menu .logo {
+  @apply w-[150px] h-[37px];
+}
+.list ul {
+  @apply flex gap-5;
+}
+.list ul li a {
+  @apply font-Rubik text-[16px] text-[#4F5665]
+    leading-[19px] font-normal;
+}
+
+.login {
+  @apply flex gap-[30px];
+}
+.login a {
+  @apply text-[16px] border-[1px] duration-[.3s] 
+    font-Rubik font-medium rounded-[50px] text-[#0B132A] py-[13px] px-[35px] text-white;
+}
+
+.singIn {
+  @apply   text-white   bg-red;;
+}
+
+.singIn:hover {
+  @apply  bg-black;
+}
+
+.SingUp {
+  @apply  bg-red;
+}
+.SingUp:hover {
+  @apply bg-black;
+}

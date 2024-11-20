@@ -1,0 +1,14 @@
+.Happy_Title{
+    @apply px-[40px]  md:px-3  flex justify-center items-center
+}
+.Happy_Title h1{
+    @apply text-center w-[447px] text-[#0B132A] font-Rubik 
+     font-medium  text-[27px] md:text-[35px] mt-[20px] mb-2 md:mt-[20px]
+}
+
+.Happy_Title_p{
+    @apply md:px-3  flex justify-center items-center 
+}
+.Happy_Title_p p{
+    @apply text-center  text-[16px] text-[#4F5665] font-Rubik font-normal w-full md:w-[555px]
+}

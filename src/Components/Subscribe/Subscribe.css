@@ -1,0 +1,22 @@
+.Subscribe_full{
+    @apply md:flex  md:justify-between mb-10 mt-[65px]
+}
+
+.Subscribe_text{
+    @apply w-full md:w-[414px] md:py-[58px] md:ml-[74px] px-3
+}
+
+.Subscribe_text h1{
+    @apply text-[27px] md:text-[35px] font-Rubik text-[#0B132A] font-medium mb-2  
+}
+.Subscribe_text p{
+    @apply text-[16px] text-[#4F5665] font-Rubik font-normal
+}
+
+.Subscribe_Button {
+    @apply md:py-[86px] md:mr-[60px] px-3
+}
+.Subscribe_Button button{
+    @apply text-[16px]  font-Rubik font-medium rounded-[10px] text-white px-5 md:px-[65px] 
+    py-[17px]  border-red bg-red shadow-[2px_26px_25px_-6px_#F5383859] mt-5 
+}
