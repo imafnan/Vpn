@@ -1,16 +1,6 @@
 .Plan{
     @apply  md:mt-[150px] 
 }
-.Plan_title{
-    @apply text-center
-}
-.Plan_title h1{
-    @apply text-[30px] md:text-[35px] font-Rubik font-medium md:mb-4
-}
-.Plan_title p{
-    @apply text-[16px] text-[#4F5665] font-Rubik  w-full
-}
-/*---- ----- ---Title End --- --- ---- --*/
 
 .Plan_full{
     @apply md:flex md:justify-between mt-10 px-3
@@ -80,4 +70,3 @@
 .p_th{
     @apply mt-[15px] md:mt-[50px]
 }
-/* ------------------ */

@@ -1,0 +1,9 @@
+.Common_head h1{
+    @apply w-[385px] text-center m-auto text-[30px] md:text-[35px] font-Rubik font-medium  text-[#0B132A] 
+}
+.Common_head p{
+    @apply  w-full px-3 lg:w-[555px] font-Rubik font-normal text-[#4F5665] text-[16px] text-center m-auto mt-2
+}
+.slick-dots{
+    @apply px-[50px]
+}

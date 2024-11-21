@@ -4,6 +4,7 @@ const Subscribe = () => {
   return (
     <section className="Subscribe">
       <div className="container">
+        <div className="Subscribe_Main">
         <div className="Subscribe_full">
 
           <div className="Subscribe_text">
@@ -16,8 +17,10 @@ const Subscribe = () => {
           </div>
           
         </div>
+        </div>
       </div>
     </section>
+   
   );
 };
 

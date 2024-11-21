@@ -1,0 +1,265 @@
+.Map{
+    @apply mt-[50px] lg:mt-[150px]
+}
+.Map_Img{
+    @apply relative mt-[50px] lg:mt-[150px] flex justify-center  px-3
+}
+.MapIcon {
+    @apply absolute top-[34px] md:top-[100px] 
+                    left-[23px] md:left-[142px] 
+                    md:w-[17px]  w-[10px] 
+                    h-[17px] h-[10px];
+    animation: pop linear infinite 2s;
+}
+@keyframes pop{
+    0%{
+        transform: scale(1.3);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+@keyframes popTwo{
+    0%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+.One{
+    @apply  md:top-[101px] top-[30px]
+            md:left-[304px] left-[47px]
+            md:w-[26px] w-[13px]
+            md:h-[26px] h-[13px];
+    animation: pop linear infinite 2s;
+}
+.Two{
+    @apply md:top-[87px] top-[40px]
+           md:left-[217px] left-[82px]
+           md:w-[26px] w-[14px]
+           md:h-[26px] h-[14px];
+    animation: popTwo linear infinite 2s;
+}
+.Three{
+    @apply 
+    md:top-[143px] top-[50px]
+    md:left-[252px] left-[58px]
+    md:w-[37px] w-[18px]
+    md:h-[37px] h-[18px];
+    animation: popTwo linear infinite 2s;
+}
+.Four{
+    @apply 
+     md:top-[140px] top-[48px]
+     md:left-[388px] left-[108px]
+     md:w-[26px] w-[10px]
+     md:h-[26px]  h-[10px];
+    animation: popTwo linear infinite 2s;
+}
+.Five{
+    @apply 
+    md:top-[241px] top-[70px]
+    md:left-[296px] left-[92px]
+    md:w-[22px]  w-[12px]
+    md:h-[22px]  h-[12px];
+    animation: pop linear infinite 2s;
+}
+.Six{
+    @apply 
+     md:top-[218px] top-[82px]
+     md:left-[353px] left-[76px]
+     md:w-[23px] w-[12px]
+     md:h-[23px] h-[12px] ;
+    animation: popTwo linear infinite 2s;
+}
+.Seven{
+    @apply 
+    md:top-[5px] top-[113px]
+    md:left-[382px] left-[109px]
+    md:w-[20px] w-[12px]
+    md:h-[20px] h-[12px]; 
+    animation: popTwo linear infinite 1s;
+}
+.Eight{
+    @apply 
+    md:top-[20px] top-[130px]
+    md:left-[530px] left-[136px]
+    md:w-[20px] w-[13px]
+    md:h-[20px] h-[13px];
+    animation: pop linear infinite 1s;
+}
+.Nine{
+    @apply 
+    md:top-[100px] top-[135px]
+    md:left-[468px] left-[118px]
+    w-[15px] 
+    h-[15px] ;
+    animation: pop linear infinite 1s;
+}
+.Ten{
+    @apply 
+    md:top-[30px] top-[157px]
+    md:left-[453px] left-[114px]
+    md:w-[25px] w-[12px] 
+    md:h-[25px] h-[12px];
+    animation: popTwo linear infinite 1s;
+}
+.Eleven{
+    @apply 
+    md:top-[112px] top-[1px]
+    md:left-[626px] left-[107px]
+    md:w-[26px] w-[8px]
+    md:h-[26px] h-[8px];
+    animation: popTwo linear infinite 1s;
+}
+.Twelve{
+    @apply 
+    md:top-[320px] top-[12px]
+    md:left-[390px] left-[132px]
+    md:w-[26px] w-[10px]
+    md:h-[26px] h-[10px];
+    animation: popTwo linear infinite 1s;
+}
+.Thirteen{
+    @apply 
+    md:top-[373px] top-[100px]
+    md:left-[478px] left-[212px]
+    md:w-[18px] w-[25px]
+    md:h-[18px] h-[25px];
+    animation: pop linear infinite 1s;
+}
+.Fourteen{
+    @apply 
+    md:top-[385px] top-[140px]
+    md:left-[422px] left-[205px]
+    md:w-[35px] w-[20px]
+    md:h-[35px] h-[20px];
+    animation: pop linear infinite 2s;
+}
+.Fifteen{
+    @apply 
+    md:top-[467px] top-[94px]
+    md:left-[394px] left-[172px]
+    md:w-[25px] w-[17px]
+    md:h-[25px]  h-[17px];
+    animation: popTwo linear infinite s;
+}
+.Sixteen{
+    @apply 
+    md:top-[448px] top-[146px]
+    md:left-[1028px] left-[307px] 
+    w-[19px] 
+    h-[19px] ;
+    animation: pop linear infinite 1s;
+}
+.Seventeen{
+    @apply 
+    md:top-[420px] top-[153px]
+    md:left-[953px] left-[335px]
+    md:w-[35px] w-[13px]
+    md:h-[35px] h-[13px];
+    animation: popTwo linear infinite 2s;
+}
+.Eighteen{
+    @apply 
+    md:top-[353px] top-[36px]
+    md:left-[923px] left-[198px]
+    md:w-[20px] w-[12px]
+    md:h-[20px] h-[12px] ;
+    animation: pop linear infinite 1s;
+}
+.Nineteen{
+    @apply 
+    md:top-[404px] top-[58px]
+    md:left-[664px] left-[206px]
+    md:w-[36px] w-[16px]
+    md:h-[36px] h-[16px];
+    animation: pop linear infinite 2s;
+}
+.Twenty{
+    @apply 
+    md:top-[293px] top-[41px]
+    md:left-[693px] left-[242px]
+    md:w-[36px] w-[20px]
+    md:h-[36px] h-[20px];
+    animation: popTwo linear infinite 1s;
+}
+.Twenty_one{
+    @apply 
+    md:top-[280px] top-[25px]
+    md:left-[583px] left-[269px]
+    md:w-[25px] w-[10px]
+    md:h-[25px] h-[10px];
+    animation: pop linear infinite 2s;
+}
+.Twenty_Two{
+    @apply 
+    md:top-[175px] top-[50px]
+    md:left-[663px] left-[276px]
+    md:w-[34px] w-[25px]
+    md:h-[34px] h-[25px];
+    animation: popTwo linear infinite 2s;
+}
+.Twenty_three{
+    @apply 
+    md:top-[259px] top-[30px]
+    md:left-[823px] left-[368px]
+    md:w-[35px] w-[13px]
+    md:h-[35px] h-[13px];
+    animation: pop linear infinite 2s;
+}
+.Twenty_Four{
+    @apply 
+    md:top-[120px] top-[30px]
+    md:left-[780px] left-[318px]
+    md:w-[33px] w-[20px]
+    md:h-[33px] h-[20px];
+    animation: pop linear infinite 2s;
+}
+.Twenty_Five{
+    @apply 
+    md:top-[145px] top-[86px]
+    md:left-[852px] left-[266px]
+    md:w-[43px] w-[13px]
+    md:h-[43px] h-[13px];
+    animation: popTwo linear infinite 2s;
+}
+.Twenty_Six{
+    @apply 
+    md:top-[80px] top-[82px]
+    md:left-[845px] left-[290px]
+    w-[16px] 
+    h-[16px] ;
+    animation: pop linear infinite 2s;
+}
+.Twenty_Seven{
+    @apply 
+    md:top-[241px] 
+    md:left-[919px] 
+    md:w-[16px] 
+    md:h-[16px] ;
+    animation: popTwo linear infinite 1s;
+}
+.Twenty_Eight{
+    @apply 
+    md:top-[100px] 
+    md:left-[975px] 
+    md:w-[16px] 
+    md:h-[16px] ;
+    animation: popTwo linear infinite 1s;
+}
+.Twenty_Nine{
+    @apply 
+    md:top-[91px] top-[124px]
+    md:left-[1102px] left-[298px]
+    md:w-[25px] w-[10px]
+    md:h-[25px] h-[10px];
+    animation: popTwo linear infinite 1s;
+}

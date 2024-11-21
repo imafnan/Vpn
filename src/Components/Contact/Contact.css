@@ -1,0 +1,29 @@
+.Contact_Full{
+    @apply md:flex justify-between lg:relative items-center md:mt-[200px]
+     h-[563px] px-10 
+}
+.Contact_One p{
+   @apply w-[340px] mt-2 md:mt-[20px] font-Rubik font-normal 
+   text-[16px] text-[#4F5665]
+}
+.Contact_Main_Icon{
+    @apply flex gap-3 mt-3 md:mt-[30px]
+}
+.Contact_Icon{
+    @apply md:flex gap-4 text-red bg-[#ebebeb] w-[33px] h-[33px] 
+    justify-center items-center rounded-full 
+}
+.Contact_p_tag{
+    @apply hidden lg:block font-Rubik font-normal text-[16px] text-[#4F5665]
+}
+
+.Contact_Two{
+    @apply flex justify-between lg:gap-[123px] gap-5 md:mt-5 mt-2
+}
+.Contact_Two h1{
+    @apply text-[18px] font-Rubik font-medium text-[#0B132A] mb-1 md:mb-[18px]
+}
+
+.Contact_Two li {
+    @apply font-Rubik font-normal text-[16px] text-[#4F5665]
+}

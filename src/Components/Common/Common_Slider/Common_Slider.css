@@ -1,0 +1,24 @@
+.Sliders{
+    @apply w-full md:w-[400px] h-[230px] p-5 md:p-[30px]
+}
+.Slider_Full{
+    @apply flex justify-between
+}
+.Slider_One{
+    @apply flex items-center gap-4
+}
+.Slider_Text h1{
+    @apply  text-[18px] font-Rubik font-medium text-[#0B132A]
+}
+.Slider_Icon{
+    @apply flex items-center gap-2
+}
+.Slider_Icon p{
+    @apply font-Rubik font-normal text-[16px] text-[#0B132A] items-center
+}
+.Slider_Icon .Icons{
+    @apply text-[15px] md:text-[20px] text-[#FEA250] items-center
+}
+.p_Tag p{
+    @apply font-normal font-Rubik text-[16px] text-[#0B132A] mt-[20px]
+}

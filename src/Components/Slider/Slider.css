@@ -1,0 +1,31 @@
+.slick-dots{
+    @apply !flex gap-3 px-3
+}
+
+
+
+.slick-dots{
+    @apply md:mt-5
+}
+.slick-dots li button{
+    @apply text-[0px] w-[10px] h-[10px] bg-slate-400 rounded-full 
+} 
+.slick-dots .slick-active  button{
+    @apply bg-red
+}
+.slick-arrow{
+    @apply text-red h-[30px] md:h-[60px] w-[30px] md:w-[60px] font-bold   
+    duration-[0.3s]  border-[2px]  md:p-[15px] border-red rounded-full
+    absolute top-[95%] right-[30px] md:right-[80px] z-[899] gap-1 
+}
+.slick-arrow:hover{
+    @apply text-white bg-red
+}
+.slick-prev{
+    @apply right-[70px] md:right-[170px] 
+}
+.Sliders{
+    @apply md:mx-4 border-[3px] rounded-[5px] duration-[.3s] 
+    border-transparent
+    hover:border-red md:ml-5 md:mr-5
+}
